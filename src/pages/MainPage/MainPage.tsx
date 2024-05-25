@@ -6,7 +6,6 @@ import './MainPage.css';
 import GrooveLogo from '../../assets/GrooveLogo.svg';
 import { useContext } from 'react'
 import SongContext from '../../context/SongContext';
-// import { BrowserRouter as Router } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import NotFound from '../NotFound/NotFound';
 
@@ -22,7 +21,7 @@ function MainPage() {
 
   const navigate = useNavigate();
 
-  const { listTrack, setListTrack, setSearchTerm } = useContext(SongContext);
+  const { setListTrack, setSearchTerm } = useContext(SongContext);
   const [token, setToken] = useState('');
   const [error, setError] = useState(false)
   let aux: string = ''
