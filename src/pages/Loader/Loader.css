@@ -1,0 +1,42 @@
+.container {
+  height: 100vh;
+}
+
+.Loader {
+  background-color: #1E1E1E;
+  color: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+  margin: auto;
+  height: 100vh;
+  justify-content: center;
+}
+.Loader .row {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Loader .row h3 {
+  text-align: center;
+  font-size: 1.25rem;
+}
+@media screen and (min-width: 600px) {
+  .Loader .row h3 {
+    font-size: 1.5rem;
+  }
+}
+.Loader img {
+  width: 300px;
+  align-self: center;
+}
+@media screen and (min-width: 600px) {
+  .Loader img {
+    width: 80%;
+  }
+}
+.Loader.fade-out {
+  opacity: 0;
+  display: hidden;
+}/*# sourceMappingURL=Loader.css.map */

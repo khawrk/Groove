@@ -1,0 +1,14 @@
+#root {
+  margin: auto;
+  width: 80%;
+  /* border: 3px solid green; */
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

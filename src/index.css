@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+/* Color Code:
+#D9D9D9 - for most of the text (except Song name)
+#FFFFFF - for Song Name (white)
+#63069E - Purple to be used for the whole app
+#9F9F9F - Gray for footer (Powered by Spotify)
+#1E1E1E - background color for the whole app */
+
+:root {
+  font-family: Syne, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #D9D9D9;
+  background-color: #1E1E1E;
+}
+
+body {
+  font-family: Syne, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  place-items: center;
+  min-width: 320px;
+  height: 100vh;
+  background-color: #1E1E1E;
+  color: #D9D9D9;
+}

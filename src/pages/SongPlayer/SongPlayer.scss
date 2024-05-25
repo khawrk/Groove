@@ -1,0 +1,114 @@
+.Player {
+
+    @media screen and (min-width:600px) {
+        margin-top: 0;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    h3 {
+        margin-left: 0;
+        text-align: center;
+        font-weight: 400;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: #9F9F9F;
+    }
+
+    iframe {
+        margin-top: 1rem;
+        width: 100%;
+        height: 200px;
+
+        @media screen and (min-width: 600px) {
+            margin-bottom: 3rem;
+            height: 352px;
+        }
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .Btn {
+
+        &.row {
+            width: 50%;
+            justify-content: space-around;
+            gap: 1rem;
+        }
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        @media screen and (min-width:600px) {
+            flex-direction: row;
+            justify-content: center;
+            gap: 0rem;
+        }
+
+        &.col {
+            width: 50%;
+        }
+
+    }
+
+
+
+    .btn.playerBtn {
+        width: 150px;
+        color: var(--purple, #63069E);
+        font-family: Syne;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 1.875rem;
+        border: 1px solid var(--cream, #D9D9D9);
+        background: var(--cream, #D9D9D9);
+
+        &:hover {
+            border-radius: 1.875rem;
+            border: 1px solid var(--cream, #D9D9D9);
+            background: var(--purple, #63069E);
+            color: var(--cream, #D9D9D9);
+            text-align: center;
+            font-family: Syne;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    img {
+        width: 150px;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 9999;
+        margin-top: 2rem;
+
+        @media screen and (min-width:600px) {
+            width: 300px;
+        }
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        color: var(--Gray-text, #9F9F9F);
+        padding: 10px 0;
+        text-align: center;
+    }
+}
